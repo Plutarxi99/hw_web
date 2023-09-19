@@ -257,7 +257,6 @@
     </div>
 
     <div class="b-example-divider"></div>
-
     <div class="container">
         <header>
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
@@ -265,7 +264,6 @@
                 <p class="fs-5 text-body-secondary">Вы находитесь на сайте, предназначенном для продажи товаров</p>
             </div>
         </header>
-
         <main class="row">
             <div class="row text-center">
                 <div class="col-4">
@@ -281,16 +279,140 @@
                                 Email support,
                                 Help center access
                             </p>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Купить</button>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-success">Купить</button>
                         </div>
                     </div>
                 </div>
-            </div>
-        </main>
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Оставьте заявку</h3>
+                            <form>
+                              <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                              </div>
+                              <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+                              <button type="submit" class="btn btn-success">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                        <h6 class="display-4 fw-normal text-body-emphasis">FAQ</h6>
+                    </div>
+                        <p>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#buy" aria-expanded="false" aria-controls="buy">
+                              Как купить?
+                          </button>
 
-    </div>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#delivery" aria-expanded="false" aria-controls="delivery">
+                              Как доставить?
+                          </button>
 
-</main>
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#guarantee" aria-expanded="false" aria-controls="guarantee">
+                              Какая гарантия?
+                          </button>
+                        </p>
+                        <div class="collapse" id="buy">
+                          <div class="card card-body">
+                            Заказывай на сайте
+                          </div>
+                        </div>
+
+                          <div class="collapse" id="delivery">
+                            <div class="card card-body">
+                            В течении 1 года придет
+                          </div>
+                        </div>
+
+                        <div class="collapse" id="guarantee">
+                            <div class="card card-body">
+                            Лет на 100
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-12">
+                <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">№</th>
+                  <th scope="col">номер</th>
+                  <th scope="col">название товара</th>
+                  <th scope="col">цена за штуку</th>
+                  <th scope="col">количество</th>
+                  <th scope="col">итоговая сумма</th>
+                  <th scope="col">статус заказа</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>1001</td>
+                  <td>монитор</td>
+                  <td>3500</td>
+                  <td>20</td>
+                  <td>70000</td>
+                  <td>
+                  <div class="alert alert-primary" role="alert">
+                    новый
+                    </div>
+                  </td>
+
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>2002</td>
+                  <td>мышка</td>
+                  <td>500</td>
+                  <td>100</td>
+                  <td>50000</td>
+                  <td>
+                    <div class="alert alert-warning" role="alert">
+                    обработка
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>3003</td>
+                  <td>клавиатура</td>
+                  <td>1000</td>
+                  <td>15</td>
+                  <td>15000
+                  </td>
+                  <td>
+                    <div class="alert alert-success" role="alert">
+                    обработан
+                    </div>
+                  </td>
+
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>4004</td>
+                  <td>колонки</td>
+                  <td>2000</td>
+                  <td>5</td>
+                  <td>10000</td>
+                  <td>
+                    <div class="alert alert-danger" role="alert">
+                    отмена
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+              </div>
+            </main>
+        </div>
+    </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
